@@ -1,3 +1,5 @@
+#this Program is for game Hangman
+ 
 def fig0
 puts " -----------"
 puts " |         |"
