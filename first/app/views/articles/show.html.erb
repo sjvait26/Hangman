@@ -1,0 +1,8 @@
+<h1> <%= @article.title %></h1>
+<p> <%= @article.body %> </p>
+<%= render :partial => 'comment_form' %>
+<%= link_to "<< back to articles list    ", articles_path %>&nbsp
+<%= link_to "   delete  " , article_path(@article), :method => :delete %>&nbsp
+<%= link_to "   edit", edit_article_path(@article) %>
+<h3> Comments (<%= @article.comments.count %>)</h3>
+<%= render :partial => 'comment', :collection => @article.comments %>

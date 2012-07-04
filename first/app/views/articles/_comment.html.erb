@@ -1,0 +1,8 @@
+<% require 'date' %>
+
+<% from_time = Time.now %>
+<div class="comment">
+ <h4> Comment by <%= comment.author_name %></h4>
+ <p><%= comment.body %> </p>
+ <p>Posted <%= distance_of_time_in_words(from_time,comment.created_at) %> ago </p>
+</div>
