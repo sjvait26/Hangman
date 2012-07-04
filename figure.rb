@@ -1,0 +1,86 @@
+def fig0
+puts " -----------"
+puts " |         |"
+puts " |"
+puts " |"
+puts " |"
+puts " |"
+puts "_|_"
+end
+def fig1
+puts " ------------ "
+puts " |         _|_"
+puts " |        (> <)"
+puts " |          - "
+puts " |"
+puts " |"
+puts " |"
+puts " |"
+puts "_|_"
+end
+def fig2
+puts " ------------ "
+puts " |         _|_"
+puts " |        (> <)"
+puts " |          - "
+puts " |          | "
+puts " |"
+puts " |"
+puts " |"
+puts "_|_"
+end
+def fig3
+puts " ------------ "
+puts " |         _|_"
+puts " |        (> <)"
+puts " |          - "
+puts " |          | "
+puts " |        \\_|"
+puts " |"
+puts " |"
+puts "_|_"
+end
+def fig4
+puts " ------------ "
+puts " |         _|_"
+puts " |        (> <)"
+puts " |          - "
+puts " |          | "
+puts " |        \\_|_/"
+puts " |"
+puts " |"
+puts "_|_"
+end
+def fig5
+puts " ------------ "
+puts " |         _|_"
+puts " |        (> <)"
+puts " |          - "
+puts " |          | "
+puts " |        \\_|_/"
+puts " |          |"
+puts " |"
+puts "_|_"
+end
+def fig6
+puts " ------------ "
+puts " |         _|_"
+puts " |        (> <)"
+puts " |          - "
+puts " |          | "
+puts " |        \\_|_/"
+puts " |          |"
+puts " |         / "
+puts "_|_"
+end
+def fig7
+puts " ------------ "
+puts " |         _|_"
+puts " |        (> <)"
+puts " |          - "
+puts " |          | "
+puts " |        \\_|_/"
+puts " |          |"
+puts " |         / \\ "
+puts "_|_"
+end
