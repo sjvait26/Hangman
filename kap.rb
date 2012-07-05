@@ -86,6 +86,7 @@ require './figure'
 		if(max_chances < 2)
     break
     end
+puts 'Game Completed'
   end
 		
 
