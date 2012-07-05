@@ -87,6 +87,7 @@ require './figure'
     break
     end
 puts 'Game Completed'
+puts 'aa'
   end
 		
 
